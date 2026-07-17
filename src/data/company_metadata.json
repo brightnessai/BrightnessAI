@@ -1,0 +1,242 @@
+{
+  "about": {
+    "headline": "We Don't Just Market — We Drive Sales",
+    "description": "BrightnessAI is a results-first digital marketing agency. We specialize in Ecommerce Marketing, Social Media Marketing, Meta Ads, and Growth Hacking. Our strategies are built around one goal: generating real revenue for your business.",
+    "mission": "To empower Indian businesses with world-class digital marketing that delivers measurable ROI.",
+    "vision": "To become India's most trusted sales-oriented digital marketing partner for growing businesses.",
+    "stats": [
+      { "label": "Clients Served", "value": "50+", "icon": "users" },
+      { "label": "Revenue Generated", "value": "₹2Cr+", "icon": "trending-up" },
+      { "label": "Campaigns Launched", "value": "200+", "icon": "rocket" },
+      { "label": "Average ROI", "value": "8x", "icon": "chart" }
+    ],
+    "whyUs": [
+      {
+        "title": "Sales-First Approach",
+        "description": "Every campaign is optimized for conversions, not vanity metrics. We measure success in rupees."
+      },
+      {
+        "title": "Data-Driven Decisions",
+        "description": "We use analytics, A/B testing, and performance data to continuously improve your results."
+      },
+      {
+        "title": "Industry Expertise",
+        "description": "Deep experience in Ecommerce, D2C brands, and local service businesses across India."
+      },
+      {
+        "title": "Transparent Reporting",
+        "description": "Weekly reports with clear metrics. No jargon, just numbers that matter to your business."
+      }
+    ]
+  },
+
+  "services": [
+    {
+      "id": "ecommerce",
+      "title": "Ecommerce Marketing",
+      "icon": "🛒",
+      "description": "Boost your online store sales with Amazon listing optimization, Flipkart management, and targeted product ad campaigns.",
+      "features": ["Amazon & Flipkart account setup", "Product listing optimization", "Sponsored ads management", "Review & rating strategy", "Competitor analysis"]
+    },
+    {
+      "id": "social-media",
+      "title": "Social Media Marketing",
+      "icon": "📱",
+      "description": "Build an engaged audience and convert followers into customers with strategic content and community management.",
+      "features": ["Content calendar & creation", "Instagram & Facebook management", "Reels & short video strategy", "Influencer outreach", "Monthly analytics report"]
+    },
+    {
+      "id": "meta-ads",
+      "title": "Meta Ads",
+      "icon": "🎯",
+      "description": "Precision-targeted Facebook and Instagram ad campaigns that generate leads and sales at the lowest cost per acquisition.",
+      "features": ["Campaign strategy & setup", "Audience research & targeting", "Ad creative design", "A/B testing & optimization", "ROAS-focused management"]
+    },
+    {
+      "id": "growth-hacking",
+      "title": "Growth Hacking",
+      "icon": "🚀",
+      "description": "Unconventional, data-backed strategies to rapidly scale your business across multiple digital channels.",
+      "features": ["Funnel design & optimization", "Viral content strategy", "Email & WhatsApp automation", "Cross-platform growth campaigns", "Conversion rate optimization"]
+    }
+  ],
+
+  "packages": {
+    "socialMedia": [
+      {
+        "name": "Standard",
+        "price": 6999,
+        "billing": "per month",
+        "highlight": false,
+        "badge": null,
+        "features": [
+          "2 social media platforms",
+          "12 posts per month",
+          "Basic content creation",
+          "Monthly performance report",
+          "WhatsApp support",
+          "Hashtag research"
+        ],
+        "notIncluded": ["Paid ad management", "Reels production", "Influencer outreach"]
+      },
+      {
+        "name": "Premium",
+        "price": 11999,
+        "billing": "per month",
+        "highlight": true,
+        "badge": "Most Popular",
+        "features": [
+          "3 social media platforms",
+          "24 posts per month",
+          "Professional content + Reels (4/month)",
+          "Meta Ads management (up to ₹10K budget)",
+          "Bi-weekly performance report",
+          "Story & highlight design",
+          "Audience growth strategy",
+          "Priority support"
+        ],
+        "notIncluded": ["Influencer campaigns", "3 platform ad management"]
+      },
+      {
+        "name": "Business",
+        "price": 19999,
+        "billing": "per month",
+        "highlight": false,
+        "badge": "Best Value",
+        "features": [
+          "All platforms (Instagram, Facebook, LinkedIn, YouTube)",
+          "40 posts per month",
+          "Premium content + 8 Reels/month",
+          "Meta Ads management (up to ₹30K budget)",
+          "Weekly performance report + strategy call",
+          "Influencer outreach (2/month)",
+          "WhatsApp broadcast setup",
+          "Dedicated account manager",
+          "Competitor tracking dashboard"
+        ],
+        "notIncluded": []
+      }
+    ],
+    "ecommerce": [
+      {
+        "name": "Standard",
+        "price": 7999,
+        "billing": "per month",
+        "highlight": false,
+        "badge": null,
+        "features": [
+          "1 ecommerce account setup (Amazon or Flipkart)",
+          "5 product listings with SEO-optimized content",
+          "Basic product photography guidance",
+          "Keyword research for listings",
+          "Monthly sales report",
+          "Seller account health monitoring"
+        ],
+        "notIncluded": ["Sponsored ads management", "Multi-platform setup", "A+ content"]
+      },
+      {
+        "name": "Premium",
+        "price": 11999,
+        "billing": "per month",
+        "highlight": true,
+        "badge": "Most Popular",
+        "features": [
+          "2 ecommerce accounts (Amazon + Flipkart)",
+          "Up to 20 product listings",
+          "A+ Content / Enhanced Brand Content",
+          "Sponsored product ads management",
+          "Pricing & competitor analysis",
+          "Review management strategy",
+          "Bi-weekly sales report",
+          "Brand store setup"
+        ],
+        "notIncluded": ["3rd platform management", "Influencer seeding"]
+      },
+      {
+        "name": "Business",
+        "price": 24999,
+        "billing": "per month",
+        "highlight": false,
+        "badge": "Best Value",
+        "features": [
+          "3 ecommerce accounts (Amazon, Flipkart, Meesho/Shopify)",
+          "Unlimited product listings",
+          "Full A+ Content & Brand Store design",
+          "Sponsored ads + DSP management",
+          "Launch strategy for new products",
+          "Influencer & affiliate seeding",
+          "Weekly performance report + strategy call",
+          "Dedicated ecommerce manager",
+          "Return & review management"
+        ],
+        "notIncluded": []
+      }
+    ]
+  },
+
+  "portfolio": [
+    {
+      "id": 1,
+      "client": "IlearnPlace",
+      "category": "Social Media Marketing",
+      "description": "Scaled IlearnPlace's Instagram from 800 to 15,000 followers in 6 months. Launched Meta Ads campaigns that reduced cost per lead by 55% and increased course enrollments by 3x.",
+      "results": ["+1,400% Instagram Growth", "55% Lower CPL", "3x Course Enrollments"],
+      "tags": ["Instagram", "Meta Ads", "EdTech"],
+      "logo": "🎓"
+    },
+    {
+      "id": 2,
+      "client": "Ramu Kaka",
+      "category": "Ecommerce Marketing",
+      "description": "Set up Ramu Kaka's Amazon & Flipkart stores from scratch. Optimized 30+ product listings, launched sponsored campaigns, and achieved Best Seller badge in 4 months.",
+      "results": ["Amazon Best Seller Badge", "₹8L Monthly Revenue", "4.8★ Seller Rating"],
+      "tags": ["Amazon", "Flipkart", "Product Listing"],
+      "logo": "🛍️"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rahul Verma",
+      "company": "IlearnPlace",
+      "role": "Founder",
+      "rating": 5,
+      "review": "BrightnessAI transformed our digital presence completely. Our course enrollments tripled and our ad spend became 2x more efficient. Vikash and his team truly understand results-driven marketing.",
+      "avatar": "RV"
+    },
+    {
+      "id": 2,
+      "name": "Ramesh Kumar",
+      "company": "Ramu Kaka Spices",
+      "role": "Owner",
+      "rating": 5,
+      "review": "Mujhe Amazon pe kuch pata nahi tha. BrightnessAI ne sab setup kiya aur ab hamara monthly revenue 8 lakh ho gaya hai. Best decision of my business life!",
+      "avatar": "RK"
+    },
+    {
+      "id": 3,
+      "name": "Priya Sharma",
+      "company": "FashionGlow",
+      "role": "CEO",
+      "rating": 5,
+      "review": "Their Meta Ads strategy is on another level. We went from spending ₹50K/month with no ROI to generating ₹5L in sales on the same budget. Highly recommend!",
+      "avatar": "PS"
+    },
+    {
+      "id": 4,
+      "name": "Amit Gupta",
+      "company": "TechKart India",
+      "role": "Marketing Head",
+      "rating": 4,
+      "review": "Professional team, transparent reporting, and genuine results. BrightnessAI helped us establish a strong presence on Flipkart and Instagram simultaneously.",
+      "avatar": "AG"
+    }
+  ],
+
+  "legal": {
+    "terms": "These terms govern your use of BrightnessAI's services. By engaging our services, you agree to our payment terms (advance payment), deliverable timelines, and confidentiality agreements. We reserve the right to modify service scope with mutual consent. All campaigns are subject to platform policies.",
+    "privacy": "BrightnessAI collects business information, contact details, and campaign data solely for service delivery. We never sell your data to third parties. All client business information is kept strictly confidential. We use cookies on this website for analytics and user experience improvement.",
+    "refund": "Due to the nature of digital marketing services (time and resources invested upfront), we offer a 7-day satisfaction review period. Partial refunds may be issued for unused deliverables within the first month. No refunds after 30 days of service commencement."
+  }
+}

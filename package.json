@@ -1,0 +1,29 @@
+{
+  "name": "brightnessai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://brightnessai.github.io/BrightnessAI",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "framer-motion": "^12.42.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-icons": "^5.7.0",
+    "react-scroll": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.4.19"
+  }
+}

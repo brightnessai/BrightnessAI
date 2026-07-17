@@ -1,0 +1,53 @@
+.tabs {
+  display: flex; gap: 8px; margin-bottom: 40px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 100px; padding: 6px; width: fit-content;
+}
+.tab {
+  padding: 12px 28px; border-radius: 100px;
+  font-weight: 600; font-size: 1rem; color: var(--text-secondary);
+  background: transparent; transition: all 0.25s;
+}
+.tab.active { background: var(--gradient); color: white; box-shadow: 0 4px 16px rgba(108,99,255,0.35); }
+.grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+}
+.card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 36px;
+  position: relative; display: flex; flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+.card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: var(--primary); }
+.highlight {
+  border-color: var(--primary);
+  background: linear-gradient(180deg, rgba(108,99,255,0.08) 0%, var(--bg-card) 100%);
+  transform: scale(1.03);
+}
+.highlight:hover { transform: scale(1.03) translateY(-6px); }
+.badge {
+  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+  background: var(--gradient); color: white;
+  padding: 5px 18px; border-radius: 100px;
+  font-size: 0.8rem; font-weight: 700; white-space: nowrap;
+}
+.planName { font-size: 1.3rem; font-weight: 700; margin-bottom: 16px; color: var(--text-primary); }
+.price { display: flex; align-items: baseline; gap: 4px; margin-bottom: 28px; }
+.currency { font-size: 1.4rem; font-weight: 700; color: var(--primary); }
+.amount {
+  font-size: 3rem; font-weight: 900; font-family: var(--font-display);
+  background: var(--gradient); -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; background-clip: text;
+}
+.billing { font-size: 0.9rem; color: var(--text-muted); }
+.features { list-style: none; flex: 1; display: flex; flex-direction: column; gap: 12px; }
+.featureYes, .featureNo {
+  display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem;
+}
+.featureYes { color: var(--text-secondary); }
+.featureNo { color: var(--text-muted); text-decoration: line-through; opacity: 0.6; }
+.iconYes { color: #25D366; flex-shrink: 0; margin-top: 3px; }
+.iconNo { color: var(--text-muted); flex-shrink: 0; margin-top: 3px; }
+
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .highlight { transform: none; } }
+@media (max-width: 500px) { .tabs { width: 100%; } .tab { flex: 1; font-size: 0.9rem; padding: 10px 16px; } }
