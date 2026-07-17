@@ -12,8 +12,8 @@ const config = {
   },
 
   contact: {
-    phone: "9509582321",
-    whatsapp: "919509582321",
+    phone: "8209996537",
+    whatsapp: "918209996537",
     email: "vikash@brightnessai.in",
     website: "https://brightnessai.github.io/BrightnessAI",
   },
