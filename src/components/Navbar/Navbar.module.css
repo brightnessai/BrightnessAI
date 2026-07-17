@@ -15,6 +15,26 @@
   display: flex; align-items: center; justify-content: space-between;
 }
 .logo img { height: 40px; }
+.logoText {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #6C63FF, #FF6584);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.logoB { font-size: 1.6rem; }
+.logoAI {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #FF6584, #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .links {
   display: flex; align-items: center; gap: 8px;
   list-style: none;

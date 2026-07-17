@@ -14,6 +14,28 @@
   gap: 48px; margin-bottom: 60px;
 }
 .brand .logo { margin-bottom: 16px; }
+.logoText {
+  display: inline-block;
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #6C63FF, #FF6584);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.logoB { font-size: 1.8rem; }
+.logoAI {
+  font-size: 1.1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #FF6584, #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .brandDesc { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 24px; }
 .socials { display: flex; gap: 12px; }
 .social {

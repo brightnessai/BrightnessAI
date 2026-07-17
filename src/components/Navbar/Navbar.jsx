@@ -17,6 +17,7 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -28,7 +29,18 @@ export default function Navbar() {
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.inner}`}>
         <a href="/" className={styles.logo}>
-          <img src={config.company.logo} alt="BrightnessAI logo" height={40} />
+          {imgError ? (
+            <span className={styles.logoText}>
+              <span className={styles.logoB}>B</span>rightness<span className={styles.logoAI}>AI</span>
+            </span>
+          ) : (
+            <img
+              src={config.company.logo}
+              alt="BrightnessAI"
+              height={40}
+              onError={() => setImgError(true)}
+            />
+          )}
         </a>
 
         <ul className={`${styles.links} ${open ? styles.open : ''}`}>

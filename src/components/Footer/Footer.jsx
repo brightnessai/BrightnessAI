@@ -19,6 +19,7 @@ function Modal({ title, content, onClose }) {
 
 export default function Footer() {
   const [modal, setModal] = useState(null);
+  const [imgError, setImgError] = useState(false);
 
   const socials = [
     { icon: <FaInstagram />, label: 'Instagram', url: config.social.instagram },
@@ -34,7 +35,13 @@ export default function Footer() {
         <div className={styles.top}>
           {/* Brand */}
           <div className={styles.brand}>
-            <img src={config.company.logo} alt="BrightnessAI" height={44} className={styles.logo} />
+            {imgError ? (
+              <span className={styles.logoText}>
+                <span className={styles.logoB}>B</span>rightness<span className={styles.logoAI}>AI</span>
+              </span>
+            ) : (
+              <img src={config.company.logo} alt="BrightnessAI" height={44} className={styles.logo} onError={() => setImgError(true)} />
+            )}
             <p className={styles.brandDesc}>{config.company.tagline}</p>
             <div className={styles.socials}>
               {socials.map(s => (
